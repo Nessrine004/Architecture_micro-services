@@ -14,4 +14,8 @@
 <h4> Faire une configuration dynamique des routes de la gateway</h4>
 <img src="captures/img_8.png">
 <img src="captures/img_9.png">
+<h4>le service de facturation Billing-Service en utilisant Open Feign</h4>
+<img src="captures/img_10.png">
+<img src="captures/img_11.png">
+
 
