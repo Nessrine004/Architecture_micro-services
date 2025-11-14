@@ -17,5 +17,15 @@
 <h4>le service de facturation Billing-Service en utilisant Open Feign</h4>
 <img src="captures/img_10.png">
 <img src="captures/img_11.png">
+<h4>Le service de configuration</h4>
+<img src="captures/img_12.png">
+<h4>L'environement par defaut </h4>
+<img src="captures/img_13.png">
+<h4>L'environement dev </h4>
+<img src="captures/img_14.png">
+
+
+
+
 
 
