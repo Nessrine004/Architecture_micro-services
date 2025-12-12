@@ -1,0 +1,27 @@
+<div class="container mt-4">
+
+  <h3 class="mb-3">
+    Factures du client : <strong>{{ customerId }}</strong>
+  </h3>
+
+  <table class="table table-bordered table-striped">
+    <thead class="table-dark">
+    <tr>
+      <th>ID Facture</th>
+      <th>Date</th>
+      <th>ID Client</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      @for (b of bills; track b.id) {
+        <tr>
+          <td>{{ b.id }}</td>
+          <td>{{ b.billingDate }}</td>
+          <td>{{ b.customerId }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+
+</div>

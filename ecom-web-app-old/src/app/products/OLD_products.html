@@ -1,0 +1,26 @@
+<nav class="mt-3 mb-3">
+  <a routerLink="/" class="btn btn-link">Home</a>
+  <a routerLink="/products" class="btn btn-link">Products</a>
+</nav>
+
+<div class="container mt-4">
+  <table class="table" *ngIf="products?._embedded?.products">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Quantity</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr *ngFor="let p of products._embedded.products">
+      <td>{{ p.id }}</td>
+      <td>{{ p.name }}</td>
+      <td>{{ p.price }}</td>
+      <td>{{ p.quantity }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

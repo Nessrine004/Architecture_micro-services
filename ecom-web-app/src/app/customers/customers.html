@@ -1,0 +1,27 @@
+<div class="container mt-4">
+  <h3>Customers</h3>
+
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+      @for (c of customers; track c.id) {
+        <tr>
+          <td>{{ c.id }}</td>
+          <td>{{ c.name }}</td>
+          <td>{{ c.email }}</td>
+          <td>
+            <button class="btn btn-success btn-sm" (click)="getBills(c)">Orders</button>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

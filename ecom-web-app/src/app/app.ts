@@ -1,12 +1,11 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
+  standalone: false,
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'ecom-web-app';
+  protected readonly title = signal('ecom-web-app');
 }
