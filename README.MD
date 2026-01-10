@@ -25,9 +25,21 @@
 <img src="captures/img_14.png">
 <img src="captures/img_15.png">
 <img src="captures/img_16.png">
+<h2>Créer un client Angular</h2>
 <img src="captures/img_17.png">
 <img src="captures/img_18.png">
 <img src="captures/img_19.png">
+<h2>Partie 4 Chatbot avec Spring AI , RAG et Client telegram - MCP </h2>
+<img src="captures/img_20.png">
+<img src="captures/img_21.png">
+<img src="captures/img_22.png">
+<img src="captures/img_23.png">
+<img src="captures/img_24.png">
+<img src="captures/img_25.png">
+
+
+
+
 
 
 
